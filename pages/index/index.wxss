@@ -13,5 +13,5 @@
     display:flex;
 }
 .forecast-item {
-    display:flex;
+
 }

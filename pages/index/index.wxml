@@ -1,14 +1,14 @@
 <view class='newstype'>
   <scroll-view scroll-x>
     <view class='forecast-list'>
-      <view class='forecast-item' wx:for="{{[1,2,3,4,5,6,7]}}">{{item}}</view>
+      <view wx:for="{{[1,2,3,4,5,6,7]}}">{{item}}</view>
     </view>
   </scroll-view>
 </view>
 <view class='newslist'>
-  <scroll-view scroll-x>
-    <view class='forecast-list'>
-     <view class='forecast-item' wx:for="{{[1,2,3,4,5]}}">{{item}}</view>
+  <scroll-view scroll-y>
+    <view>
+     <view  wx:for="{{[1,2,3,4,5]}}">{{item}}</view>
     </view>
   </scroll-view>
 </view>
