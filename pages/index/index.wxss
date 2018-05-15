@@ -2,7 +2,7 @@
     
     padding: 10rpx 15rpx 10rpx;
     background-color: #34a2e4;
-    
+     
 }
 
 .newslist{
@@ -11,7 +11,4 @@
   }
 .forecast-list {
     display:flex;
-}
-.forecast-item {
-
 }
