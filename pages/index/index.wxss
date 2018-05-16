@@ -1,14 +1,12 @@
-.newstype{
-    
-    padding: 10rpx 15rpx 10rpx;
-    background-color: #34a2e4;
-     
+.newstype {
+  padding: 10rpx 15rpx 10rpx;
+  background-color: #34a2e4;
+  display: flex;
 }
 
-.newslist{
+.newslist-item {
   padding-bottom: rpx;
-  background-color: moccasin;
-  }
-.forecast-list {
-    display:flex;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-shrink: 0;
 }

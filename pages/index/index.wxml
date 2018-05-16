@@ -1,18 +1,16 @@
 <view class='newstype'>
 
-    <view wx:for="{{[gn,gj,cj,yr,js,ty,qt]}}">  {{item}}</view>
+  <view wx:for="{{[gn,gj,cj,yr,js,ty,qt]}}">{{item}}</view>
 
 </view>
 
-<view class='mewslist'>
-<scroll-view scroll-y>
-  <view wx:for="{{[1,2,3,4,5]}}">{{item}}</view>
-</scroll-view>
+<view>
+  <scroll-view scroll-y class='newslist'>
+    <view wx:for="{{newslistArray}}">
+      <view class='newslist-title'>{{item}}</view>
+      <image class='newslist-image' src=''></image>
+      <view class='newslist-text'></view>
+    </view>
+    <view></view>
+  </scroll-view>
 </view>
-<!-- <view class='newslist'>
-  <scroll-view scroll-y>
-    <view>
-      <view wx:for=" {{[1,2,3,4,5]}}>{{item}}</view>
-  </view>
-  </scroll-view> 
-</view> -->
