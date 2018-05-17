@@ -8,7 +8,8 @@
   <scroll-view scroll-y class='newslist'>
     <view wx:for="{{newslistArray}}">
       <view class='newslist-title'>{{item}}</view>
-      <image class='newslist-image' src=''></image>
+      <image class='newslist-image' src='{{defaultImg}}'></image>
+
       <view class='newslist-text'></view>
     </view>
     <view></view>

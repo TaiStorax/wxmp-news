@@ -9,8 +9,9 @@ Page({
     js: '军事',
     ty: '体育',
     qt: '其他',
-    newslistArray: [1, 2, 3, 4, 5]
-
+    newslistArray: [1, 2, 3, 4, 5],
+    imgList: "",    //图片列表，动态获取
+    defaultImg: "../images/defaultImg.png",    //默认图片
   },
 
   onLoad() {
